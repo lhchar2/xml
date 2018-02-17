@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xsd:element name="order-form">
+
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="organisation-name" type="xsd:string"></xsd:element>
+				<xsd:element name="postal-address-1" type="xsd:string"></xsd:element>
+				<xsd:element name="postal-address-2" type="xsd:string"></xsd:element>
+				<xsd:element name="postal-address-3" type="xsd:string"></xsd:element>
+				<xsd:element name="postal-address-4" type="xsd:string"></xsd:element>
+				<xsd:element name="email" type="xsd:string"></xsd:element>
+				<xsd:element name="phone" type="xsd:string"></xsd:element>
+				<xsd:element name="account" type="xsd:int"></xsd:element>
+				<xsd:element name="processing-instructions-1" type="xsd:string"></xsd:element>
+				<xsd:element name="processing-instructions-2" type="xsd:string"></xsd:element>
+				<xsd:element name="composite" type="xsd:string"></xsd:element>
+				<xsd:element name="library-search-keywords" type="xsd:string"></xsd:element>
+				<xsd:element name="special-instruction-1"></xsd:element>
+				<xsd:element name="special-instruction-2"></xsd:element>
+				<xsd:element name="special-instruction-3"></xsd:element>
+				<xsd:element name="special-instruction-4"></xsd:element>
+				<xsd:element name="submit-date" type="xsd:string"></xsd:element>
+				<xsd:element name="image-size" type="xsd:string"></xsd:element>
+				<xsd:element name="return-type" type="xsd:string"></xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+		
